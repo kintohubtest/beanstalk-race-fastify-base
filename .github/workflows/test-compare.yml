@@ -15,7 +15,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Test compare
-        uses: nearform-actions/github-action-test-compare@d50bc37a05e736bb40db0eebc8fdad3e33ece136 # v1.0.26
+        uses: nearform-actions/github-action-test-compare@ec6b7c67cf28d1158d749da193de1440e9243b6a # v1.1.0
         with:
           label: test-compare
           testCommand: 'npm run test:ci'
